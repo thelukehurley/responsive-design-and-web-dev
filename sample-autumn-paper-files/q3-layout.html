@@ -92,6 +92,7 @@
     .module-grid-container {
       display: grid;
       grid-template-columns: auto;
+      margin: auto;
     }
 
     /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -129,14 +130,16 @@
     /*Tablet Media Query*/
     @media screen and (min-width: 600px) {
       .module-grid-container {
-        grid-template-columns: auto auto;
+        grid-template-columns: repeat(2, 1fr);
       }
     }
 
     /*LAptop/Desktop Media Query*/
     @media screen and (min-width: 900px) {
       .module-grid-container {
-        grid-template-columns: auto auto auto;
+        grid-template-columns: repeat(3, 1fr);
+        
+        width: 600px;
       }
     }
   </style>
