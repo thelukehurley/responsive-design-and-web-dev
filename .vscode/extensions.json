@@ -1,0 +1,13 @@
+{
+	"recommendations": [
+		"sonarsource.sonarlint-vscode",
+		"streetsidesoftware.code-spell-checker",
+		"cweijan.vscode-office",
+		"vscode-icons-team.vscode-icons",
+		"gruntfuggly.todo-tree",
+		"yzhang.markdown-all-in-one",
+		"george-alisson.html-preview-vscode",
+		"ms-edgedevtools.vscode-edge-devtools",
+		"shd101wyy.markdown-preview-enhanced"
+	]
+}

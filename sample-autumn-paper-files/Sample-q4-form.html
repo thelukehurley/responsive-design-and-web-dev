@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Question 4 - Form Validation</title>
+    <style>
+        
+      
+        label {
+        width: 14em;
+        float: left;
+            
+        }
+   
+        #reset {margin-left: 17em;}
+        
+        
+        #submit { margin-left: 5em; }
+        
+        
+        body {
+            font-family: Calibri, sans-serif;
+            font-size: medium;
+             }
+       
+        
+        fieldset {
+            background-color: aqua;
+            border: 1px solid black;
+            width: 45%; margin:auto;}
+        
+        legend {font-weight: bold;font-size:1.5em;}
+        
+        h1 {text-align: center;}
+        
+        .errors {color:red; }
+        
+        div {text-align: center;}
+        
+    </style>
+    
+    
+    <!-- regular expression for email 
+        /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/  
+             
+ 
+         regular expression for a numeric value
+        /^[0-9]+$/
+         
+    -->
+    
+</head>
+
+<body>
+
+<h1>Computing Courses</h1>
+<form id="formDetails" method="post">
+    <fieldset><legend>Require More Information</legend> 
+  <p>
+    <label for="name">Name (max 20 characters)</label>
+    <input name="name" type="text" id="name">
+    <span id="error1" class="errors"></span>
+  </p>
+        
+   <p>
+    <label for="email1">Email Address </label>
+    <input type="text" name="email1" id="email1">
+    <span id="error2" class="errors"></span>
+  </p>
+  <p>
+    <label for="email2">Confirm Email Address </label>
+    <input type="text" name="email2" id="email1">
+    <span id="error3" class="errors"></span>
+  </p>
+        
+    <p>
+    <label for="mobile">Mobile </label>
+    <input type="text" name="mobile" id="mobile">
+    <span id="error4" class="errors"></span>
+  </p>   
+        
+      
+        
+  <p>
+    <label for="age">Age</label>
+    <input name="age" type="text" id="age" maxlength="20">
+    <span id="error5" class="errors"></span>
+  </p>
+  
+  <p>
+    <label for="age">Enter your query</label>
+    <textarea name="info" id="info" cols="60" rows="5"></textarea>
+    <span id="error6" class="errors"></span>
+  </p>
+        
+          
+        
+       
+        
+        
+
+  <p> <input type="reset" name="reset" id="reset" value="Reset">
+    <input type="submit" name="submit" id="submit" value="Submit">
+  </p>
+        
+</fieldset>        
+        
+</form>
+
+
+      
+    
+</body>
+</html>
