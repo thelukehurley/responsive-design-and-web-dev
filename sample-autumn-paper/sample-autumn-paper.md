@@ -46,14 +46,14 @@ Open the file *q3-layout.html.* Insert the necessary CSS code as an internal sty
 
 Note the following:
 
-- You need to create the sixth card in the HTML. The text is provided as a HTML comment. The image is *maths.jpg*
-- In the HTML create a parent div to enclose all content after the navigation bar. This div will contain all your grid items.
-- Add the necessary code to make all images responsive.
-- Centre the main grid in the browser window.
-- Create horizontal and vertical spacing between the grid items.
-- Add media queries for Desktop and Tablet view .
-- Add the active class to the Home navigation tab so that it has a green background.
-- Add an event handler to the hamburger icon to call the JavaScript function myFunction() which will display/hide the drop-down menu when the user clicks on it.
+- [ ] You need to create the sixth card in the HTML. The text is provided as a HTML comment. The image is *maths.jpg*
+- [x] In the HTML create a parent div to enclose all content after the navigation bar. This div will contain all your grid items.
+- [ ] Add the necessary code to make all images responsive.
+- [x] Centre the main grid in the browser window.
+- [ ] Create horizontal and vertical spacing between the grid items.
+- [x] Add media queries for Desktop and Tablet view .
+- [x] Add the active class to the Home navigation tab so that it has a green background.
+- [ ] Add an event handler to the hamburger icon to call the JavaScript function myFunction() which will display/hide the drop-down menu when the user clicks on it.
 
 ![Figure 3](Aspose.Words.a73794fd-3142-4caa-8e94-72fe8c6bc557.008.jpeg)
 
