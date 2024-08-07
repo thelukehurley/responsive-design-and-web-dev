@@ -48,80 +48,6 @@
     }
   </style>
   <meta charset="UTF-8">
-  <script>
-    function testCorrectValues() {
-      const ageInput = "22";
-      const name = "Luke";
-      const email = "luke@no-reply.com";
-      const emailConfirmation = "luke@no-reply.com";
-      const mobile = "0801231234";
-      const info = "What is a good example of code for testing";
-      return !isFormValuesValid(ageInput, name, email, emailConfirmation, mobile, info);
-    }
-    function testBadEmail() {
-      const ageInput = "22";
-      const name = "Luke";
-      const email = "luke@no-reply";
-      const emailConfirmation = "luke@no-reply";
-      const mobile = "0801231234";
-      const info = "What is a good example of code for testing";
-      return isFormValuesValid(ageInput, name, email, emailConfirmation, mobile, info);
-
-    }
-    function isFormValid() {
-      const ageInput = document.getElementById("age").value;
-      const name = document.getElementById("name").value;
-      const email = document.getElementById("email1").value;
-      const emailConfirmation = document.getElementById("email-confirmation").value;
-      const mobile = document.getElementById("mobile").value;
-      const info = document.getElementById("info").value;
-
-      return isFormValuesValid(ageInput, name, email, emailConfirmation, mobile, info);
-    }
-    function isFormValuesValid(ageInput, name, email, emailConfirmation, mobile, info) {
-      /**
-      * The age submitted in the form
-      * @type{string}
-      */
-
-      const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-      if (!emailPattern.test(email)) {
-        alert("Not a valid email");
-        console.info("Not a valid email");
-        return false;
-      }
-
-      const numericPattern = /^\d+$/;
-
-      if (!numericPattern.test(ageInput)) {
-        alert("age must be a number")
-        return false;
-      }
-
-      if (email !== emailConfirmation) {
-        alert("email address do not match")
-        return false;
-      }
-
-      /*ALL TEXT FIELDS ARE POPULATED*/
-
-      if (!name || !email || mobile === "" || info === "") {
-        alert("All text fields must be filled out")
-        return false;
-      }
-
-      /*No more then 20 characters*/
-      if (name.length >= 20) {
-        alert("Must be less then 20 characters")
-        return false;
-      }
-
-      return true;
-    }
-    console.log("testBadEmail: " + testBadEmail());
-    console.log("testCorrectValues: " + testCorrectValues());
-
-  </script>
 </head>
 
 <body>
@@ -164,6 +90,82 @@
       </p>
     </fieldset>
   </form>
+
+  <script>
+    function testCorrectValues() {
+      const ageInput = "22";
+      const name = "Luke";
+      const email = "luke@no-reply.com";
+      const emailConfirmation = "luke@no-reply.com";
+      const mobile = "0801231234";
+      const info = "What is a good example of code for testing";
+      return !isFormValuesValid(ageInput, name, email, emailConfirmation, mobile, info);
+    }
+    function testBadEmail() {
+      const ageInput = "22";
+      const name = "Luke";
+      const email = "luke@no-reply";
+      const emailConfirmation = "luke@no-reply";
+      const mobile = "0801231234";
+      const info = "What is a good example of code for testing";
+      return isFormValuesValid(ageInput, name, email, emailConfirmation, mobile, info);
+
+    }
+    function isFormValid() {
+      const ageInput = document.getElementById("age").value;
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email1").value;
+      const emailConfirmation = document.getElementById("email-confirmation").value;
+      const mobile = document.getElementById("mobile").value;
+      const info = document.getElementById("info").value;
+
+      return isFormValuesValid(ageInput, name, email, emailConfirmation, mobile, info);
+    }
+    function isFormValuesValid(ageInput, name, email, emailConfirmation, mobile, info) {
+      /**
+      * The age submitted in the form
+      * @type{string}
+      */
+
+      const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+      if (!emailPattern.test(email)) {
+        document.getElementById("error2").textContent="Not a valid Email"
+        console.info("Not a valid email");
+        return false;
+      }
+
+      const numericPattern = /^\d+$/;
+
+      if (!numericPattern.test(ageInput)) {
+        alert("age must be a number")
+        return false;
+      }
+
+      if (email !== emailConfirmation) {
+        alert("email address do not match")
+        return false;
+      }
+
+      /*ALL TEXT FIELDS ARE POPULATED*/
+
+      if (!name || !email || mobile === "" || info === "") {
+        alert("All text fields must be filled out")
+        return false;
+      }
+
+      /*No more then 20 characters*/
+      if (name.length >= 20) {
+        alert("Must be less then 20 characters")
+        return false;
+      }
+
+      return true;
+    }
+    console.log("testBadEmail: " + testBadEmail());
+    console.log("testCorrectValues: " + testCorrectValues());
+
+  </script>
+
 </body>
 
 </html>
