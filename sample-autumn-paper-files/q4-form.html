@@ -61,10 +61,10 @@
       let mobile_val = document.getElementById("Number").value;
       let address_val = document.getElementById("address").value;
 
-      const emailPattern = /^ {[a-z A-Z 0-9 . _ -] + @ [a-z A-Z 0-9 .-] + \.[a-z A-Z]}/;
+      const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
       return emailPattern.test(email_val);
 
-      const numericPattern = /^ [0-9] + $/;
+      const numericPattern = /^[0-9]+$/;
 
       /*Make emails match*/
 
@@ -101,7 +101,7 @@
              
  
          regular expression for a numeric value
-        /^[0-9]+$/
+        
          
     -->
 
