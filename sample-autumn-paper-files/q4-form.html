@@ -53,72 +53,56 @@
   </style>
   <meta charset="UTF-8">
   <script>
-
     function validateForm() {
-      let name_val = document.getElementById("name").value;
-      let email_val = document.getElementById("email1").value;
-      let email2_val = document.getElementById("email2").value;
-      let mobile_val = document.getElementById("Number").value;
-      let address_val = document.getElementById("address").value;
+
+      /**
+      * The name submitted in the form
+      * @type{string}
+      */
+      let name = document.getElementById("name").value;
+      let email = document.getElementById("email1").value;
+      let emailConfirmation = document.getElementById("email2").value;
+      let mobile = document.getElementById("Number").value;
+      let address = document.getElementById("address").value;
 
       const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-      return emailPattern.test(email_val);
+      return emailPattern.test(email);
 
       const numericPattern = /^[0-9]+$/;
 
-      /*Make emails match*/
-
-      if (email_val !== email2_val) {
+      if (email !== emailConfirmation) {
         alert("email address do not match")
         return false;
       }
 
       /*ALL TEXT FIELDS ARE POPULATED*/
 
-      if (name_val === "" || email_val === "" || email2_val === "" || mobile_val === "" || address_val === "")
+      if (!name || !email || mobile === "" || address === "")
         alert("All text fields must be filled out")
       return false;
 
       /*No more then 20 characters*/
-
-      if (name_val < 20) alert("Must be less then 20 characters")
+      if (name.length < 20)
+        alert("Must be less then 20 characters")
 
       /* email address is valid*/
-
-      if (email_val != "")
+      if (email != "")
         alert("Email is required")
       return false;
-
-
-
-
-
     }
   </script>
-
-  <!-- regular expression for email 
-        
-             
- 
-         regular expression for a numeric value
-        
-         
-    -->
-
 </head>
 
 <body>
-
   <h1>Computing Courses</h1>
   <form id="formDetails" method="post">
     <fieldset>
       <legend>Require More Information</legend>
-      <p>
+      luke <p>
         <label for="name">Name (max 20 characters)</label>
         <input name="name" type="text" id="name">
         <span id="error1" class="errors"></span>
       </p>
-
       <p>
         <label for="email1">Email Address </label>
         <input type="text" name="email1" id="email1">
@@ -126,47 +110,29 @@
       </p>
       <p>
         <label for="email2">Confirm Email Address </label>
-        <input type="text" name="email2" id="email1">
+        <input type="text" name="email2" id="email2">
         <span id="error3" class="errors"></span>
       </p>
-
       <p>
         <label for="mobile">Mobile </label>
         <input type="text" name="mobile" id="mobile">
         <span id="error4" class="errors"></span>
       </p>
-
-
-
       <p>
         <label for="age">Age</label>
         <input name="age" type="text" id="age" maxlength="20">
         <span id="error5" class="errors"></span>
       </p>
-
       <p>
         <label for="age">Enter your query</label>
         <textarea name="info" id="info" cols="60" rows="5"></textarea>
         <span id="error6" class="errors"></span>
       </p>
-
-
-
-
-
-
-
       <p> <input type="reset" name="reset" id="reset" value="Reset">
         <input type="submit" name="submit" id="submit" value="Submit">
       </p>
-
     </fieldset>
-
   </form>
-
-
-
-
 </body>
 
 </html>
