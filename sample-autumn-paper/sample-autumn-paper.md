@@ -84,7 +84,6 @@ Insert the necessary *JavaScript code* to perform the following form validation.
 
 *Note:* Error messages should be written to the corresponding <span> element for each form control.
 
-
 ## Paper College Details
 
 College: Technological University of the Shannon: Midlands Midwest  
