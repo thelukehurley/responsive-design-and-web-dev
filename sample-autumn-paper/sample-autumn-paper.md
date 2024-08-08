@@ -14,7 +14,7 @@ There are no additional requirements for this paper.
 
 ## Computer Instructions
 
-1. On your desktop create a new folder named *examRDD-YourKnumber. (Remember to replace YourKnumber with your actual K number). Create a subfolder called **images* within this folder.
+1. On your desktop create a new folder named *examRDD-YourK-number*. (Remember to replace YourK-number with your actual K number). Create a subfolder called **images* within this folder.
 2. Download the *examResources.zip* file from the Moodle Exam Module page.  It contains several files.
 3. Extract these files to the newly created folder on your desktop. Place all images in the *images* sub folder.
 4. Complete all activities as outlined below using your code editor to edit these files and use Microsoft Edge, Chrome or Firefox to view your files.
@@ -82,7 +82,7 @@ Insert the necessary *JavaScript code* to perform the following form validation.
 5. The *mobile* number is numeric and must contain 10 digits exactly.
 6. The *age* textfield must contain a numeric value. (Tip: Use regular expressions – provided in the HTML code)
 
-*Note:* Error messages should be written to the corresponding <span> element for each form control.
+*Note:* Error messages should be written to the corresponding `<span>` element for each form control.
 
 ## Paper College Details
 
