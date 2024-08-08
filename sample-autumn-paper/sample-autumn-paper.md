@@ -53,7 +53,7 @@ Note the following:
 - [ ] Create horizontal and vertical spacing between the grid items.
 - [x] Add media queries for Desktop and Tablet view .
 - [x] Add the active class to the Home navigation tab so that it has a green background.
-- [ ] Add an event handler to the hamburger icon to call the JavaScript function myFunction() which will display/hide the drop-down menu when the user clicks on it.
+- [x] Add an event handler to the hamburger icon to call the JavaScript function myFunction() which will display/hide the drop-down menu when the user clicks on it.
 
 ![Figure 3](Aspose.Words.a73794fd-3142-4caa-8e94-72fe8c6bc557.008.jpeg)
 
