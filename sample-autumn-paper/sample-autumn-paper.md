@@ -46,7 +46,7 @@ Open the file *q3-layout.html.* Insert the necessary CSS code as an internal sty
 
 Note the following:
 
-- [ ] You need to create the sixth card in the HTML. The text is provided as a HTML comment. The image is *maths.jpg*
+- [x] You need to create the sixth card in the HTML. The text is provided as a HTML comment. The image is *maths.jpg*
 - [x] In the HTML create a parent div to enclose all content after the navigation bar. This div will contain all your grid items.
 - [ ] Add the necessary code to make all images responsive.
 - [x] Centre the main grid in the browser window.
