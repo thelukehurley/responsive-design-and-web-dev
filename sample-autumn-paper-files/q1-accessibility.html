@@ -1,178 +1,177 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    
-<head>
-    
-<meta charset="utf-8">
 
-<title> </title>
+<head>
+
+    <meta charset="utf-8">
+
+    <title> </title>
 
 
     <style>
-        #container, form, table{width:90%;
-		margin:auto;
-		padding:2em;
-		}
-		
-        body { font-family:Calibri; 
-		background-color:pink;}
-        
+        #container,
+        form,
+        table {
+            width: 90%;
+            margin: auto;
+            padding: 2em;
+        }
+
+        body {
+            font-family: Calibri;
+            background-color: pink;
+        }
+
         fieldset {
-           border: 1px solid #781351;
+            border: 1px solid #781351;
             width: 20em;
             background-color: lightyellow;
-                }
-        
-    
-        
-        img {margin-bottom: 2em;
-		max-width:100%;
-		display:block;
-		margin:auto;}
-        
-        #form1 {display: flex; margin:auto; }
-        
-        #column1 {flex:40%;text-align: right;}
-        #column2 {flex:60%;}
-        
-    
-        label {  
-                 margin-right:0.5em;   
-              }
-         
-       
-        input[type=text], input[type=email], input[type=tel] { 
+        }
+
+        img {
+            margin-bottom: 2em;
+            max-width: 100%;
+            display: block;
+            margin: auto;
+        }
+
+        #form1 {
+            display: flex;
+            margin: auto;
+        }
+
+        #column1 {
+            flex: 40%;
+            text-align: right;
+        }
+
+        #column2 {
+            flex: 60%;
+        }
+
+        label {
+            margin-right: 0.5em;
+        }
+
+        input[type=text],
+        input[type=email],
+        input[type=tel] {
             color: #781351;
             background: lightblue;
             border: 1px solid #781351;
-              }
-        
-        
+        }
+
+
         input[type=submit] {
             background-color: lightblue;
-           
-            	}
-        
-      
-        table 
-        { 	
-            
-            font-family:Calibri; 
-            font-size:1em;
-            border:1px solid black; 
-            text-align:left;
-            border-collapse:collapse;
+
         }
 
-        td,th
-         {
-            width:10em; 
-            border:1px solid black;
-            padding:0.5em;
-         }
+        table {
 
-        #header
-             {
-            background:pink;
-             }
+            font-family: Calibri;
+            font-size: 1em;
+            border: 1px solid black;
+            text-align: left;
+            border-collapse: collapse;
+        }
 
-        table {margin-top:5em;} 
-        
-       
-        
+        td,
+        th {
+            width: 10em;
+            border: 1px solid black;
+            padding: 0.5em;
+        }
+
+        #header {
+            background: pink;
+        }
+
+        table {
+            margin-top: 5em;
+        }
+
         ul li {
-			display:inline;
-		font-size:2em;
-		text-align:right; 	
-		margin-left:1em;
-		
-		}
-		
-		a{
-		margin-left: 3em;
-		color:white;
-		font-weight:bolder;
-		text-decoration:none;
+            display: inline;
+            font-size: 2em;
+            text-align;
+            right;
+            margin-left: 1em;
         }
-		#center{text-align:center;  color:white; background-color:darkgrey; padding:1em;}
-		
+
+        a {
+            margin-left: 3em;
+            color: white;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+
+        #center {
+            text-align: center;
+            color: white;
+            background-color: darkgrey;
+            padding: 1em;
+        }
     </style>
-
 </head>
-
 
 <body>
     <div id="container">
-    
-    <img src="images/cupCakes.png" alt="" height = "500" width = "1200">
-	<!--image from unsplash.com -->
-    <div>
-
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Cakes</a></li>
-			<li><a href="#">Cup Cakes</a></li>
-			<li><a href="#">Order</a></li>
-		</ul>
-
-	</div>
+        <img src="images/cupCakes.png" alt="" height="500" width="1200">
+        <!--image from unsplash.com -->
+        <div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cakes</a></li>
+                <li><a href="#">Cup Cakes</a></li>
+                <li><a href="#">Order</a></li>
+            </ul>
+        </div>
     </div>
+    <div>
+        <p>Opening Times
+        <p>
+        <table>
 
-
-        
- <div>
-   <p>Opening Times<p>
-    <table>
-   
-         <tr>
-              <td></td><td>Monday-Friday</td><td>Saturday</td><td>Sunday</td>
-          </tr>
-          <tr>
-              <td>Times</td><td>9 - 5 </td><td>9 - 4</td><td>Closed</td>
-          </tr> 
-           
-
-    </table>
-	
-  
-</div>
-<br>
-<div>
- <form>
-<p>Sign Up For Weekly Offers<p>
-        <fieldset>
-            
-            <div id="form1">
-                
-                <div id="column1">
-
-                    <p>Full Name:</p>  
-                    <p>Email:</p> 
-
-                </div>
-
-                <div id="column2">
-                    <p><input type="text" name="Name" id="name"></p>
-					<p><input type="text" name="email" id="email"> </p>
-                    <p><input type="submit" value="Submit"></p>
-
-
-                </div>
-            
-            
-            </div>
-            
-
+            <tr>
+                <td></td>
+                <td>Monday-Friday</td>
+                <td>Saturday</td>
+                <td>Sunday</td>
+            </tr>
+            <tr>
+                <td>Times</td>
+                <td>9 - 5 </td>
+                <td>9 - 4</td>
+                <td>Closed</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div>
+        <form>
+            <p>Sign Up For Weekly Offers
             <p>
-            	
-           
-
-        </fieldset>
-    </form>
-</div>
-<div id = "footer">
-<p id="center">Copyright &copy; Ciara's Cup Cakes 2024.</p>
-</div>
+            <fieldset>
+                <div id="form1">
+                    <div id="column1">
+                        <p>Full Name:</p>
+                        <p>Email:</p>
+                    </div>
+                    <div id="column2">
+                        <p><input type="text" name="Name" id="name"></p>
+                        <p><input type="text" name="email" id="email"> </p>
+                        <p><input type="submit" value="Submit"></p>
+                    </div>
+                </div>
+                <p>
+            </fieldset>
+        </form>
+    </div>
+    <div id="footer">
+        <p id="center"> copywrite ciara's cup cakes 2024.</p>
+    </div>
 </body>
+
 </html>
