@@ -22,7 +22,7 @@ There are no additional requirements for this paper.
 
 ## Question 1 - Accessibility (12 marks)
 
-Open the file *q1-accessibility.html* in your code editor.  
+Open the file [q1-accessibility.html](../sample-autumn-paper-files/q1-accessibility.html) in your code editor.  
 
 ![Figure 1: q1-accessibility.html](figure-1-accessibility.jpeg)
 
