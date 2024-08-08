@@ -24,8 +24,8 @@
         }
 
         /* Centre the main grid in the browser window.
-	Create horizontal and vertical spacing between the grid items.
-*/
+           Create horizontal and vertical spacing between the grid items.
+        */
         .page-title {
             color: #00C896;
         }
@@ -94,9 +94,15 @@
 
         .module-grid-container {
             display: grid;
-            grid-template-columns: auto;
+            grid-template-columns: 1fr;
             margin: auto;
             gap: 1em;
+            /* Horizontal and vertical spacing between grid items */
+        }
+
+        .module-card img {
+            width: 100%; /* Make all images responsive */
+            height: auto;
         }
 
         /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the top-nav (.icon) */
@@ -141,9 +147,9 @@
         /*Laptop/Desktop Media Query*/
         @media screen and (min-width: 900px) {
             .module-grid-container {
-                grid-template-columns: repeat(3, 1fr);
-
-                width: 600px;
+                grid-template-columns: repeat(3, 1fr); /* 3 columns for desktops */
+                width: 90%; /* Centering grid in browser window */
+                max-width: 1200px; /* Limit width for larger screens */
             }
         }
     </style>
