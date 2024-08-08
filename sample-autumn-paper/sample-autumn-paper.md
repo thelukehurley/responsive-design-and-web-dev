@@ -24,7 +24,7 @@ There are no additional requirements for this paper.
 
 Open the file *q1-accessibility.html* in your code editor.  
 
-![Figure 1: q1-accessibility.html](Aspose.Words.a73794fd-3142-4caa-8e94-72fe8c6bc557.005.jpeg)
+![Figure 1: q1-accessibility.html](figure-1-accessibility.jpeg)
 
 *Figure 1: q1-accessibility.html*  
 
@@ -55,15 +55,15 @@ Note the following:
 - [x] Add the active class to the Home navigation tab so that it has a green background.
 - [x] Add an event handler to the hamburger icon to call the JavaScript function myFunction() which will display/hide the drop-down menu when the user clicks on it.
 
-![Figure 3](Aspose.Words.a73794fd-3142-4caa-8e94-72fe8c6bc557.008.jpeg)
+![Figure 3](figure-3-responsive-design-desktop.jpeg)
 
 *Figure 3: Desktop view*  
 
-![Figure 4](Aspose.Words.a73794fd-3142-4caa-8e94-72fe8c6bc557.009.jpeg)
+![Figure 4](figure-4-responsive-design-tablet.jpeg)
 
 *Figure 4: Tablet view*  
 
-![Figure 5](Aspose.Words.a73794fd-3142-4caa-8e94-72fe8c6bc557.010.jpeg)
+![Figure 5](figure-4-responsive-design-mobile.jpeg)
 
 *Figure 5: Mobile view*  
 
@@ -71,7 +71,7 @@ Note the following:
 
 Open the file *q4-form.html.*  
 
-*Figure 6: q4-form.html. ![Figure ](Aspose.Words.a73794fd-3142-4caa-8e94-72fe8c6bc557.011.png)![Figure](Aspose.Words.a73794fd-3142-4caa-8e94-72fe8c6bc557.012.jpeg)*
+*Figure 6: q4-form.html. ![Figure 4 Javascript](figure-4-javascript-form.jpeg)![Figure](figure-4-javascript-form.jpeg)*
 
 Insert the necessary *JavaScript code* to perform the following form validation.
 
