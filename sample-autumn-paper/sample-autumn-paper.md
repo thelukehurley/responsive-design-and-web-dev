@@ -17,7 +17,7 @@ There are no additional requirements for this paper.
 1. On your desktop create a new folder named *examRDD-YourKnumber. (Remember to replace YourKnumber with your actual K number). Create a subfolder called **images* within this folder.
 2. Download the *examResources.zip* file from the Moodle Exam Module page.  It contains several files.
 3. Extract these files to the newly created folder on your desktop. Place all images in the *images* sub folder.
-4. Complete all activities as outlined below using your code editor to edit these files and use Microsoft Edge, Chrome or Firefox to view your files. 
+4. Complete all activities as outlined below using your code editor to edit these files and use Microsoft Edge, Chrome or Firefox to view your files.
 5. When completed, save your work, zip your entire exam folder and upload to the Moodle Exam Module page.
 
 ## Question 1 - Accessibility (12 marks)
@@ -32,11 +32,11 @@ There are several accessibility issues with this code. Create comments in the HT
 
 ## Question 2 - Design (13 marks)
 
-*Figure 2* below are screenshots of the Energia website. Open the file *q2-design.txt.  Within this text document highlight **six* design principles utilised by the designers of this site to ensure a well-designed page. Include comments on text readability and layout patterns.
+**Figure 2** below are screenshots of the Energia website. Open the file [q2-design.md](../sample-autumn-paper-files/q2-design.md).  Within this text document highlight **six** design principles utilised by the designers of this site to ensure a well-designed page. Include comments on text readability and layout patterns.
 
-![Figure 2](Aspose.Words.a73794fd-3142-4caa-8e94-72fe8c6bc557.006.jpeg)
+![Figure 2](figure-2-energia.jpeg)
 
-![Figure 3](Aspose.Words.a73794fd-3142-4caa-8e94-72fe8c6bc557.007.jpeg)
+![Figure 3](figure-3-energia.jpeg)
 
 *Figure 2*  
 
